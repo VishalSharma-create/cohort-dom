@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+}
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+main{
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+.team_display{
+  background-color: #1428e3;
+  padding: 30px;
+}
+h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+h2{
+  font-size: 60px;
+  font-weight: 500;
+}
+h3{
+  font-size: 30px;
+}
+p{
+  font-size: 30px;
+  background-color: #fff;
+  color: #111;
+  padding: 10px 20px;
+}
+.additional_info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 32px;
+  font-weight: 600;
+  background-color: crimson;
+  border: 1px dotted #fff;
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.95);
+}
